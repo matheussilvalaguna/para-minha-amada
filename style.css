@@ -1,0 +1,56 @@
+
+#banner{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin: -100px 0 0 -150px;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  background-image: url("./assents/fundo-de-balao-de-ar-de-coracao-vermelho-com-formas-de-bokeh-de-brilho-em-fitas-conceito-de-design-para-festa-de-aniversario-de-dia-dos-namorados-ou-casamento.jpg");
+  height: 90vh;
+  width: 90%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  }
+  
+  h1 {
+    font-weight: 35px;
+    color: #ffff;
+    text-shadow: 0.1em 0.1em 0.05em #000000
+  }
+  
+  button {
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    border: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:first-child {
+    background-color: green;
+  }
+  
+  button:nth-child(2) {
+    background-color: red;
+  }
+  
+  div.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+    margin-top: 30px;
+  }
+  
+  h2{
+
+ color: #ffffff;
+ text-shadow: 2px 2px 1px #000000;
+
+  }
